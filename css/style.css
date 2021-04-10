@@ -115,7 +115,7 @@ input, select {
   align-items: center;
 }
 
-.header-logo{
+.header-logo {
     font-size: 20px;
     font-weight: bold;
     margin-left: 35px;
@@ -138,7 +138,7 @@ input, select {
 
 #eyecatch{
     height:600px ;
-    background :url(/Users/next.9251/Downloads/img/bg1.jpg) no-repeat;
+    background : url('../img4/bg1.jpg') ;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -148,7 +148,7 @@ input, select {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) ;
     font-size: 100px;
     font-style: italic;
     font-weight: bold;
@@ -164,10 +164,10 @@ input, select {
 }
 
 #about .section-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 30px 0;
-  text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: center;
 }
 
 .about-wrap{
@@ -198,11 +198,11 @@ input, select {
 
 
 #business{
-    background:url(/Users/next.9251/Downloads/img/bg3.jpg) no-repeat;
+    background: url('../img4/bg3.jpg');
     background-size: cover;
 }
 
-#business.section-title{
+#business .section-title{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -211,11 +211,10 @@ input, select {
     margin: 0;
 }
 
-
 .business-wrap{
-    text-align:center ;
-    display:flex;
-    justify-content:space-between;
+    text-align: center ;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -250,21 +249,21 @@ input, select {
     padding: 40px 0 70px 0;
 }
 
-#company.section-title{
+#company .section-title{
     font-size: 30px;
     font-weight: bold;
     margin: 30px 0;
     text-align: center;
 }
 
-#company.contain{
+#company .contain{
     border-collapse: collapse;
     width: 70%;
     margin: 0 auto;
 }
 
-#company .table tr{
-    border-bottom：1px solid  #333333;
+#company table tr{
+    border-bottom:1px solid #333333;
 }
 
 #company th,
@@ -278,7 +277,7 @@ input, select {
 
 
 #contact{
-    background: rgb(241, 241, 241);
+    background: rgb(241,241,241);
 }
 
 #contact .section-title{
@@ -295,11 +294,12 @@ input, select {
 }
 
 label{
-    display:inline-block
+    display:inline-block;
     width: 30%;
 }
 
-input,textarea{
+input,
+textarea{
     box-sizing:border-box;
     border: 1px solid #999;
     width: 65%;
@@ -314,12 +314,13 @@ textarea{
     vertical-align: top;
     height: 200px;
 }
+
 .button-submit{
     text-align: center;
 }
 
 .button{
-    padding: :10px 30px;
+    padding: 10px 30px;
     background-color : #000;
     color: #fff;
     margin: 30px 0;
